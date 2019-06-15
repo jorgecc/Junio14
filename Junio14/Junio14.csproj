@@ -74,11 +74,15 @@
     <Content Include="Web.config" />
     <Content Include="WebDiccionario.aspx" />
     <Content Include="WebError.aspx" />
+    <Content Include="WebUsing.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClaseEjemplo.cs" />
+    <Compile Include="ClaseEjemplo2.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="MiClase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebDiccionario.aspx.cs">
       <DependentUpon>WebDiccionario.aspx</DependentUpon>
@@ -93,6 +97,13 @@
     </Compile>
     <Compile Include="WebError.aspx.designer.cs">
       <DependentUpon>WebError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUsing.aspx.cs">
+      <DependentUpon>WebUsing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebUsing.aspx.designer.cs">
+      <DependentUpon>WebUsing.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

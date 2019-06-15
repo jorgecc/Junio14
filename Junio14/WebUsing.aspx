@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebError.aspx.cs" Inherits="Junio14.WebError" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebUsing.aspx.cs" Inherits="Junio14.WebUsing" %>
 
 <!DOCTYPE html>
 
@@ -10,7 +10,6 @@
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:Button ID="Button1" runat="server" Text="Button" />
     </form>
 </body>
 </html>
